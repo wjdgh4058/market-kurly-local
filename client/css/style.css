@@ -1,0 +1,43 @@
+.product {
+  display: block;
+  text-decoration: none;
+}
+.product__image_container {
+  position: relative;
+  width: 249px;
+  height: 320px;
+}
+.product__shopping_basket {
+  position: absolute;
+  left: 189px;
+  top: 258px;
+  background-color: inherit;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+}
+
+.product__image_container__tumbnail {
+  position: absolute;
+  width: 100%;
+}
+
+.product__info {
+}
+
+.product__info__name {
+  font-size: 16px;
+  line-height: 1.45;
+  font-weight: 400;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  color: rgb(51, 51, 51);
+}
+
+.product__info__price {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.5;
+  white-space: nowrap;
+  color: rgb(51, 51, 51);
+}
