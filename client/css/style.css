@@ -1,10 +1,11 @@
 .product {
   display: block;
   text-decoration: none;
+  width: 249px;
 }
 .product__image_container {
   position: relative;
-  width: 249px;
+  width: 100%;
   height: 320px;
 }
 .product__shopping_basket {
@@ -43,19 +44,17 @@
 }
 
 .swiper {
-  width: 100%;
+  width: 1050px;
   height: 100%;
 }
 
-.swiper-wrapper{
+.swiper-wrapper {
   position: relative;
   display: flex;
   flex-flow: row nowrap;
-  
 }
 
 .swiper-slide {
-  width: 294px;
-  margin-right: 18px;
+  width: 249px;
+  /* margin-right: 18px; */
 }
-
