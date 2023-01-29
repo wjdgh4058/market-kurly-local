@@ -1,4 +1,4 @@
-const swiper = new Swiper(".mySwiper", {
+const swiper = new Swiper(".first-swiper", {
 	slidesPerView: "4",
 	slidesPerGroup: "4",
 	pagination: {
